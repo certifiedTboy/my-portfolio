@@ -8,8 +8,7 @@ const WorkExperience = () => {
         <AnimationOnScroll animateIn="animate__fadeInDown">
           <header
             className="section-header text-center wow zoomIn"
-            data-wow-delay="0.1s"
-          >
+            data-wow-delay="0.1s">
             <p>My Resume</p>
             <h2>Work Experience</h2>
           </header>
@@ -19,8 +18,7 @@ const WorkExperience = () => {
           <AnimationOnScroll animateIn="animate__fadeInLeft">
             <div
               className="timeline-item left wow slideInLeft"
-              data-wow-delay="0.1s"
-            >
+              data-wow-delay="0.1s">
               <div className="timeline-text">
                 <div className="timeline-date">2020</div>
                 <h2>Web Developer</h2>
@@ -36,16 +34,33 @@ const WorkExperience = () => {
           <AnimationOnScroll animateIn="animate__fadeInRight">
             <div
               className="timeline-item right wow slideInRight"
-              data-wow-delay="0.1s"
-            >
+              data-wow-delay="0.1s">
               <div className="timeline-text">
-                <div className="timeline-date">2021 - Till Date</div>
+                <div className="timeline-date">2021 - 2022</div>
                 <h2>Software Engineer (Node Js Backend)</h2>
                 <h4>The House of Sounds Entertainment</h4>
                 <p>
                   Worked on different functionalities of their application built
                   on micro-services architecture with typescript nodejs,
                   postgresql and mongodb databases
+                </p>
+              </div>
+            </div>
+          </AnimationOnScroll>
+
+          <AnimationOnScroll animateIn="animate__fadeInLeft">
+            <div
+              className="timeline-item left wow slideInRight"
+              data-wow-delay="0.1s">
+              <div className="timeline-text">
+                <div className="timeline-date">2023</div>
+                <h2>Tech Instructor (Fullstack JS / Web Development)</h2>
+                <h4>GoMyCode Nigeria</h4>
+                <p>
+                  Provide support for students on their course of study and
+                  guide through their learning process. Provide a code along
+                  classes on real life projects to help students gain hands on
+                  experiences
                 </p>
               </div>
             </div>

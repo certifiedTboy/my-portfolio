@@ -23,8 +23,7 @@ const Projects = () => {
           <AnimationOnScroll
             animateIn="animate__fadeInDown"
             className="section-header text-center wow zoomIn"
-            data-wow-delay="0.1s"
-          >
+            data-wow-delay="0.1s">
             <p>My Portfolio</p>
             <h2>Recent Projects</h2>
           </AnimationOnScroll>
@@ -41,8 +40,7 @@ const Projects = () => {
           <div className="row portfolio-container">
             <div
               className="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-3 wow fadeInUp"
-              data-wow-delay="0.4s"
-            >
+              data-wow-delay="0.4s">
               <AnimationOnScroll animateIn="animate__fadeInUp">
                 <div className="portfolio-wrap">
                   <div className="portfolio-img">
@@ -53,8 +51,7 @@ const Projects = () => {
                       <a
                         href=""
                         data-bs-toggle="modal"
-                        data-bs-target="#staticBackdrop2"
-                      >
+                        data-bs-target="#staticBackdrop2">
                         Chat Connect
                       </a>{" "}
                     </h3>
@@ -66,8 +63,7 @@ const Projects = () => {
             <div
               className="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-1 wow fadeInUp"
               data-wow-delay="0.0s"
-              style={{ marginBottom: "40px" }}
-            >
+              style={{ marginBottom: "40px" }}>
               <AnimationOnScroll animateIn="animate__fadeInUp">
                 <div className="portfolio-wrap">
                   <div className="portfolio-img">
@@ -78,8 +74,7 @@ const Projects = () => {
                       <a
                         href=""
                         data-bs-toggle="modal"
-                        data-bs-target="#staticBackdrop1"
-                      >
+                        data-bs-target="#staticBackdrop1">
                         Estate-Agency
                       </a>
                     </h3>
@@ -90,8 +85,7 @@ const Projects = () => {
             </div>
             <div
               className="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-2 wow fadeInUp"
-              data-wow-delay="0.2s"
-            >
+              data-wow-delay="0.2s">
               <AnimationOnScroll animateIn="animate__fadeInUp">
                 <div className="portfolio-wrap">
                   <div className="portfolio-img">
@@ -102,8 +96,7 @@ const Projects = () => {
                       <a
                         href=""
                         data-bs-toggle="modal"
-                        data-bs-target="#staticBackdrop"
-                      >
+                        data-bs-target="#staticBackdrop">
                         Exams Solution
                       </a>{" "}
                     </h3>
@@ -115,8 +108,7 @@ const Projects = () => {
 
             <div
               className="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-2 wow fadeInUp"
-              data-wow-delay="0.8s"
-            >
+              data-wow-delay="0.8s">
               <AnimationOnScroll animateIn="animate__fadeInUp">
                 <div className="portfolio-wrap">
                   <div className="portfolio-img">
@@ -127,9 +119,8 @@ const Projects = () => {
                       <a
                         href=""
                         data-bs-toggle="modal"
-                        data-bs-target="#staticBackdrop3"
-                      >
-                        Ur Fasttrack Admissions
+                        data-bs-target="#staticBackdrop3">
+                        WebDev Blog
                       </a>
                     </h3>
                     <a className="btn">+</a>

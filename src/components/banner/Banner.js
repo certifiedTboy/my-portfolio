@@ -6,8 +6,7 @@ const Banner = () => {
     <AnimationOnScroll
       animateIn="animate__pulse"
       className="banner wow zoomIn"
-      data-wow-delay="0.1s"
-    >
+      data-wow-delay="0.1s">
       <div className="container">
         <div className="section-header text-center">
           <h2>
@@ -20,9 +19,8 @@ const Banner = () => {
             and my previous works
           </p>
           <a
-            href="https://drive.google.com/u/0/uc?id=1744QhI75517_eENxI95OQb7Vxcjbdxvf&export=download"
-            className={"btn"}
-          >
+            href="https://drive.google.com/uc?id=1D2W1ocCRbhqtAISEPXPs5jCV_rSg31vJ&export=download"
+            className={"btn"}>
             Download CV
           </a>
         </div>

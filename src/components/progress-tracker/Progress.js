@@ -48,8 +48,7 @@ const Progress = () => {
         className="about wow fadeInUp"
         data-wow-delay="0.1s"
         id="about"
-        style={{ marginTop: "20px" }}
-      >
+        style={{ marginTop: "20px" }}>
         <div className="container-fluid">
           <div className="row align-items-center">
             <div className="col-lg-6">
@@ -83,8 +82,7 @@ const Progress = () => {
                       aria-valuenow="100"
                       aria-valuemin="0"
                       aria-valuemax="100"
-                      animateIn="animate__fadeInLeft"
-                    ></AnimationOnScroll>
+                      animateIn="animate__fadeInLeft"></AnimationOnScroll>
                   </div>
                   <div className="skill-name">
                     <p>CSS 3 / Bootstrap 5</p>
@@ -100,8 +98,7 @@ const Progress = () => {
                       aria-valuenow="90"
                       aria-valuemin="0"
                       aria-valuemax="100"
-                      animateIn="animate__fadeInLeft"
-                    ></AnimationOnScroll>
+                      animateIn="animate__fadeInLeft"></AnimationOnScroll>
                   </div>
                   <div className="skill-name">
                     <p>JavaScript</p>
@@ -117,8 +114,7 @@ const Progress = () => {
                       role="progressbar"
                       aria-valuenow="80"
                       aria-valuemin="0"
-                      aria-valuemax="100"
-                    ></AnimationOnScroll>
+                      aria-valuemax="100"></AnimationOnScroll>
                   </div>
 
                   <div className="skill-name">
@@ -133,8 +129,7 @@ const Progress = () => {
                       role="progressbar"
                       aria-valuenow="70"
                       aria-valuemin="0"
-                      aria-valuemax="100"
-                    ></AnimationOnScroll>
+                      aria-valuemax="100"></AnimationOnScroll>
                   </div>
 
                   <div className="skill-name">
@@ -149,8 +144,7 @@ const Progress = () => {
                       role="progressbar"
                       aria-valuenow="80"
                       aria-valuemin="0"
-                      aria-valuemax="100"
-                    ></AnimationOnScroll>
+                      aria-valuemax="100"></AnimationOnScroll>
                   </div>
                   <div className="skill-name">
                     <p>Node Js</p>
@@ -164,8 +158,7 @@ const Progress = () => {
                       role="progressbar"
                       aria-valuenow="90"
                       aria-valuemin="0"
-                      aria-valuemax="100"
-                    ></AnimationOnScroll>
+                      aria-valuemax="100"></AnimationOnScroll>
                   </div>
                   <div className="skill-name">
                     <p>Mongo Db</p>
@@ -179,8 +172,7 @@ const Progress = () => {
                       role="progressbar"
                       aria-valuenow="90"
                       aria-valuemin="0"
-                      aria-valuemax="100"
-                    ></AnimationOnScroll>
+                      aria-valuemax="100"></AnimationOnScroll>
                   </div>
                   <div className="skill-name">
                     <p>MySql</p>
@@ -194,8 +186,7 @@ const Progress = () => {
                       role="progressbar"
                       aria-valuenow="90"
                       aria-valuemin="0"
-                      aria-valuemax="100"
-                    ></AnimationOnScroll>
+                      aria-valuemax="100"></AnimationOnScroll>
                   </div>
 
                   <div className="skill-name">
@@ -210,15 +201,13 @@ const Progress = () => {
                       role="progressbar"
                       aria-valuenow="90"
                       aria-valuemin="0"
-                      aria-valuemax="100"
-                    ></AnimationOnScroll>
+                      aria-valuemax="100"></AnimationOnScroll>
                   </div>
                 </div>
 
                 <a
-                  href="https://drive.google.com/u/0/uc?id=1744QhI75517_eENxI95OQb7Vxcjbdxvf&export=download"
-                  className={"btn"}
-                >
+                  href="https://drive.google.com/uc?id=1D2W1ocCRbhqtAISEPXPs5jCV_rSg31vJ&export=download"
+                  className={"btn"}>
                   Learn More
                 </a>
               </div>
