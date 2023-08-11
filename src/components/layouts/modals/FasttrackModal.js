@@ -50,7 +50,7 @@ const FasttrackModal = () => {
               Close
             </button>
             <a
-              href="https://webdev-blog-rust.vercel.app"
+              href="https://utiva-webdev-blog-project.vercel.app"
               className="btn btn-primary"
               type="button"
               target="_blank"
