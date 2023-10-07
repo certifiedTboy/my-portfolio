@@ -33,6 +33,10 @@ const ChatAiModal = () => {
               instant and accurate answers
             </p>
             <p>
+              It has the ability to prevent usage of vulgar words (Profanity
+              Filter) which is powered by RAPID API Bad word filter API
+            </p>
+            <p>
               It is built with Node Js and the messaging functionality is
               powered by socket.io. The Ui is built with React Js Library
             </p>
