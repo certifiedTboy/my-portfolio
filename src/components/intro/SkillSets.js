@@ -12,6 +12,7 @@ const SkillSets = () => {
       "Web Developer",
       "Software Engineer",
       "Digital Marketer",
+      "Tech Instructor",
     ];
 
     const options = {

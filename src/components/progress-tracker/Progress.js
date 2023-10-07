@@ -12,6 +12,7 @@ const Progress = () => {
   const [mongoProgress, setMongoProgress] = useState(0);
   const [mysqlProgress, setMysqlProgress] = useState(0);
   const [postgressProgress, setPostgressProgress] = useState(0);
+  const [socketProgress, setSockerProgress] = useState(0);
   const htmlRef = useRef();
   const cssRef = useRef();
   const javascriptRef = useRef();
@@ -21,6 +22,8 @@ const Progress = () => {
   const mysqlRef = useRef();
   const postgressRef = useRef();
   const mongoRef = useRef();
+  const socketRef = useRef();
+
   useEffect(() => {
     const htmlValue = htmlRef.current.innerText;
     const cssValue = cssRef.current.innerText;
@@ -30,6 +33,7 @@ const Progress = () => {
     const mongoValue = mongoRef.current.innerText;
     const mysqlValue = mysqlRef.current.innerText;
     const postgressValue = postgressRef.current.innerText;
+    const socketRefValue = socketRef.current.innerText;
 
     setHtmlProgress(htmlValue);
     setCssProgress(cssValue);
@@ -40,6 +44,7 @@ const Progress = () => {
     setMongoProgress(mongoValue);
     setMysqlProgress(mysqlValue);
     setPostgressProgress(postgressValue);
+    setSockerProgress(socketRefValue);
   }, [htmlRef]);
 
   return (
@@ -48,7 +53,8 @@ const Progress = () => {
         className="about wow fadeInUp"
         data-wow-delay="0.1s"
         id="about"
-        style={{ marginTop: "20px" }}>
+        style={{ marginTop: "20px" }}
+      >
         <div className="container-fluid">
           <div className="row align-items-center">
             <div className="col-lg-6">
@@ -82,7 +88,8 @@ const Progress = () => {
                       aria-valuenow="100"
                       aria-valuemin="0"
                       aria-valuemax="100"
-                      animateIn="animate__fadeInLeft"></AnimationOnScroll>
+                      animateIn="animate__fadeInLeft"
+                    ></AnimationOnScroll>
                   </div>
                   <div className="skill-name">
                     <p>CSS 3 / Bootstrap 5</p>
@@ -98,7 +105,8 @@ const Progress = () => {
                       aria-valuenow="90"
                       aria-valuemin="0"
                       aria-valuemax="100"
-                      animateIn="animate__fadeInLeft"></AnimationOnScroll>
+                      animateIn="animate__fadeInLeft"
+                    ></AnimationOnScroll>
                   </div>
                   <div className="skill-name">
                     <p>JavaScript</p>
@@ -114,7 +122,8 @@ const Progress = () => {
                       role="progressbar"
                       aria-valuenow="80"
                       aria-valuemin="0"
-                      aria-valuemax="100"></AnimationOnScroll>
+                      aria-valuemax="100"
+                    ></AnimationOnScroll>
                   </div>
 
                   <div className="skill-name">
@@ -129,7 +138,8 @@ const Progress = () => {
                       role="progressbar"
                       aria-valuenow="70"
                       aria-valuemin="0"
-                      aria-valuemax="100"></AnimationOnScroll>
+                      aria-valuemax="100"
+                    ></AnimationOnScroll>
                   </div>
 
                   <div className="skill-name">
@@ -144,7 +154,8 @@ const Progress = () => {
                       role="progressbar"
                       aria-valuenow="80"
                       aria-valuemin="0"
-                      aria-valuemax="100"></AnimationOnScroll>
+                      aria-valuemax="100"
+                    ></AnimationOnScroll>
                   </div>
                   <div className="skill-name">
                     <p>Node Js</p>
@@ -158,7 +169,8 @@ const Progress = () => {
                       role="progressbar"
                       aria-valuenow="90"
                       aria-valuemin="0"
-                      aria-valuemax="100"></AnimationOnScroll>
+                      aria-valuemax="100"
+                    ></AnimationOnScroll>
                   </div>
                   <div className="skill-name">
                     <p>Mongo Db</p>
@@ -172,7 +184,8 @@ const Progress = () => {
                       role="progressbar"
                       aria-valuenow="90"
                       aria-valuemin="0"
-                      aria-valuemax="100"></AnimationOnScroll>
+                      aria-valuemax="100"
+                    ></AnimationOnScroll>
                   </div>
                   <div className="skill-name">
                     <p>MySql</p>
@@ -186,7 +199,8 @@ const Progress = () => {
                       role="progressbar"
                       aria-valuenow="90"
                       aria-valuemin="0"
-                      aria-valuemax="100"></AnimationOnScroll>
+                      aria-valuemax="100"
+                    ></AnimationOnScroll>
                   </div>
 
                   <div className="skill-name">
@@ -201,13 +215,31 @@ const Progress = () => {
                       role="progressbar"
                       aria-valuenow="90"
                       aria-valuemin="0"
-                      aria-valuemax="100"></AnimationOnScroll>
+                      aria-valuemax="100"
+                    ></AnimationOnScroll>
+                  </div>
+
+                  <div className="skill-name">
+                    <p>Websocker (Socket.io)</p>
+                    <p ref={socketRef}>90%</p>
+                  </div>
+                  <div className="progress">
+                    <AnimationOnScroll
+                      animateIn="animate__fadeInLeft"
+                      style={{ width: `${socketProgress}` }}
+                      className="progress-bar"
+                      role="progressbar"
+                      aria-valuenow="90"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></AnimationOnScroll>
                   </div>
                 </div>
 
                 <a
-                  href="https://drive.google.com/uc?id=1D2W1ocCRbhqtAISEPXPs5jCV_rSg31vJ&export=download"
-                  className={"btn"}>
+                  href="https://drive.google.com/uc?id=1AlOPCC9IUK9tnpVLD04ZhGX_DV5yA7W3&export=download"
+                  className={"btn"}
+                >
                   Learn More
                 </a>
               </div>
