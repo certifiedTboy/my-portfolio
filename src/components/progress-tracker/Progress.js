@@ -220,7 +220,7 @@ const Progress = () => {
                   </div>
 
                   <div className="skill-name">
-                    <p>Websocker (Socket.io)</p>
+                    <p>Websocket (Socket.io)</p>
                     <p ref={socketRef}>90%</p>
                   </div>
                   <div className="progress">

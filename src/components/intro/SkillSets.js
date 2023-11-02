@@ -1,6 +1,5 @@
 import React, { useRef, useEffect } from "react";
 import Typed from "typed.js";
-import classes from "./SkillSets.module.css";
 
 const SkillSets = () => {
   const typed = useRef(null);
