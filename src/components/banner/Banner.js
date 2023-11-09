@@ -20,7 +20,7 @@ const Banner = () => {
             and my previous works
           </p>
           <a
-            href="https://drive.google.com/uc?id=1AlOPCC9IUK9tnpVLD04ZhGX_DV5yA7W3&export=download"
+            href="https://drive.google.com/uc?id=1PjcmvvPiTiTHYuCAMQ-RnpTxaIACPi_W&export=download"
             className={"btn"}
           >
             Download CV
