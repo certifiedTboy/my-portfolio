@@ -63,7 +63,7 @@ const ExamSolutionModal = () => {
               Close
             </button>
             <a
-              href="http://examssolution.herokuapp.com/"
+              href="https://exams-solution.onrender.com/"
               className="btn btn-primary"
               type="button"
               target="_blank"
