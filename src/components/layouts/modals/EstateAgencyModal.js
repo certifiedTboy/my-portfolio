@@ -58,7 +58,7 @@ const EstateAgencyModal = () => {
               Close
             </button>
             <a
-              href="https://estate-agency2.herokuapp.com"
+              href="https://estate-agency-tjjc.onrender.com"
               className="btn btn-primary"
               type="button"
               target="_blank"
