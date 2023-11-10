@@ -9,7 +9,8 @@ const FasttrackModal = () => {
       data-bs-keyboard="false"
       tabindex="-1"
       aria-labelledby="staticBackdropLabel"
-      aria-hidden="true">
+      aria-hidden="true"
+    >
       <div className="modal-dialog">
         <div className="modal-content">
           <div className="modal-header">
@@ -21,7 +22,8 @@ const FasttrackModal = () => {
               type="button"
               class="btn-close"
               data-bs-dismiss="modal"
-              aria-label="Close">
+              aria-label="Close"
+            >
               <i style={{ color: "red" }} className="far fa-times-circle"></i>
             </button>
           </div>
@@ -46,15 +48,17 @@ const FasttrackModal = () => {
             <button
               type="button"
               className="btn btn-secondary"
-              data-bs-dismiss="modal">
+              data-bs-dismiss="modal"
+            >
               Close
             </button>
             <a
-              href="https://utiva-webdev-blog-project.vercel.app"
+              href="https://webdev-blogg.vercel.app"
               className="btn btn-primary"
               type="button"
               target="_blank"
-              rel="noreferrer">
+              rel="noreferrer"
+            >
               View Life Demo
             </a>
           </div>
