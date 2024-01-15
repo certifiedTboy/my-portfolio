@@ -19,6 +19,7 @@ const Banner = () => {
             Download C.V with the download button below to learn more about me
             and my previous works
           </p>
+
           <a
             href="https://drive.google.com/uc?id=1PjcmvvPiTiTHYuCAMQ-RnpTxaIACPi_W&export=download"
             className={"btn"}
