@@ -21,7 +21,7 @@ const Banner = () => {
           </p>
 
           <a
-            href="https://drive.google.com/uc?id=1PjcmvvPiTiTHYuCAMQ-RnpTxaIACPi_W&export=download"
+            href="https://drive.google.com/uc?id=1uRvc1rGY1d10LqjX14xkxQ5I0VLmF8JF&export=download"
             className={"btn"}
           >
             Download CV

@@ -13,6 +13,7 @@ const Progress = () => {
   const [mysqlProgress, setMysqlProgress] = useState(0);
   const [postgressProgress, setPostgressProgress] = useState(0);
   const [socketProgress, setSockerProgress] = useState(0);
+  const [nativeProgress, setNativeProgress] = useState(0);
   const htmlRef = useRef();
   const cssRef = useRef();
   const javascriptRef = useRef();
@@ -23,6 +24,7 @@ const Progress = () => {
   const postgressRef = useRef();
   const mongoRef = useRef();
   const socketRef = useRef();
+  const nativeRef = useRef();
 
   useEffect(() => {
     const htmlValue = htmlRef.current.innerText;
@@ -34,6 +36,7 @@ const Progress = () => {
     const mysqlValue = mysqlRef.current.innerText;
     const postgressValue = postgressRef.current.innerText;
     const socketRefValue = socketRef.current.innerText;
+    const nativeRefValue = nativeRef.current.innerText;
 
     setHtmlProgress(htmlValue);
     setCssProgress(cssValue);
@@ -45,6 +48,7 @@ const Progress = () => {
     setMysqlProgress(mysqlValue);
     setPostgressProgress(postgressValue);
     setSockerProgress(socketRefValue);
+    setNativeProgress(nativeRefValue);
   }, [htmlRef]);
 
   return (
@@ -234,10 +238,25 @@ const Progress = () => {
                       aria-valuemax="100"
                     ></AnimationOnScroll>
                   </div>
+                  <div className="skill-name">
+                    <p>React Native</p>
+                    <p ref={nativeRef}>70%</p>
+                  </div>
+                  <div className="progress">
+                    <AnimationOnScroll
+                      animateIn="animate__fadeInLeft"
+                      style={{ width: `${nativeProgress}` }}
+                      className="progress-bar"
+                      role="progressbar"
+                      aria-valuenow="90"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></AnimationOnScroll>
+                  </div>
                 </div>
 
                 <a
-                  href="https://drive.google.com/uc?id=1PjcmvvPiTiTHYuCAMQ-RnpTxaIACPi_W&export=download"
+                  href="https://drive.google.com/uc?id=1uRvc1rGY1d10LqjX14xkxQ5I0VLmF8JF&export=download"
                   className={"btn"}
                 >
                   Learn More
