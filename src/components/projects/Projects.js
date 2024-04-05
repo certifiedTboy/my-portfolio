@@ -213,7 +213,7 @@ const Projects = () => {
                         data-bs-toggle="modal"
                         data-bs-target="#staticBackdrop7"
                       >
-                        Tee Flix Streaming
+                        Tee Flix
                       </a>
                     </h3>
                     <a className="btn">+</a>
