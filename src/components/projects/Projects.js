@@ -7,12 +7,14 @@ import Exam from "../../Assets/exam.png";
 import Fast from "../../Assets/fast.png";
 import Durotrade from "../../Assets/durotrade.png";
 import Chat_Ai from "../../Assets/chat-ai.png";
+import teeflix from "../../Assets/teeflix.png";
 import ExamSolutionModal from "../layouts/modals/ExamSolutionModal";
 import EstateAgencyModal from "../layouts/modals/EstateAgencyModal";
 import FasttrackModal from "../layouts/modals/FasttrackModal";
 import InfoModal from "../layouts/modals/InfoModal";
 import ChatAiModal from "../layouts/modals/ChatAiModal";
 import DuroTradeModal from "../layouts/modals/DuroTradeModal";
+import TeeFlixModal from "../layouts/modals/TeeFlixModal";
 
 const Projects = () => {
   return (
@@ -24,6 +26,7 @@ const Projects = () => {
       <InfoModal />
       <ChatAiModal />
       <DuroTradeModal />
+      <TeeFlixModal />
       <div className="portfolio" id="portfolio">
         <div className="container">
           <AnimationOnScroll
@@ -186,6 +189,31 @@ const Projects = () => {
                         data-bs-target="#staticBackdrop6"
                       >
                         Durotrade Logistics
+                      </a>
+                    </h3>
+                    <a className="btn">+</a>
+                  </div>
+                </div>
+              </AnimationOnScroll>
+            </div>
+
+            <div
+              className="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-2 wow fadeInUp"
+              data-wow-delay="0.8s"
+            >
+              <AnimationOnScroll animateIn="animate__fadeInUp">
+                <div className="portfolio-wrap">
+                  <div className="portfolio-img">
+                    <img src={teeflix} alt="Image" />
+                  </div>
+                  <div className="portfolio-text">
+                    <h3>
+                      <a
+                        href=""
+                        data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop7"
+                      >
+                        Tee Flix
                       </a>
                     </h3>
                     <a className="btn">+</a>
