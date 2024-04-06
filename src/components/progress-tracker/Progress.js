@@ -255,10 +255,7 @@ const Progress = () => {
                   </div>
                 </div>
 
-                <a
-                  href="https://drive.google.com/uc?id=1uRvc1rGY1d10LqjX14xkxQ5I0VLmF8JF&export=download"
-                  className={"btn"}
-                >
+                <a href={`${process.env.REACT_APP_CV_LINK}`} className={"btn"}>
                   Learn More
                 </a>
               </div>
