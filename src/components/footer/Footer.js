@@ -33,22 +33,22 @@ const Footer = () => {
               </p>
             </div>
             <div className="footer-social">
-              <a href="https://twitter.com/Certified_Tboy1" target="_blank">
+              {/* <a href="https://twitter.com/Certified_Tboy1" target="_blank">
                 <i className="fab fa-twitter"></i>
-              </a>
+              </a> */}
 
-              <a
+              {/* <a
                 href="https://web.facebook.com/infiniteIdeas12"
                 target="_blank"
               >
                 <i className="fab fa-facebook"></i>
-              </a>
-              <a
+              </a> */}
+              {/* <a
                 href="https://web.facebook.com/infiniteIdeas12"
                 target="_blank"
               >
                 <i className="fab fa-facebook-messenger"></i>
-              </a>
+              </a> */}
               <a
                 href="https://linkedin.com/in/emmanuel-tosin-817257149"
                 target="_blank"
@@ -57,6 +57,10 @@ const Footer = () => {
               </a>
               <a href="https://wa.me/+2347018810562" target="_blank">
                 <i className="fab fa-whatsapp"></i>
+              </a>
+
+              <a href="https://github.com/certifiedTboy" target="_blank">
+                <i class="fa-brands fa-github"></i>
               </a>
             </div>
           </div>
