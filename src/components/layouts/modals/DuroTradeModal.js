@@ -55,7 +55,7 @@ const DuroTradeModal = () => {
               Close
             </button>
             <a
-              href="https://www.durotradeniglimited.com/"
+              href="https://durotrade-logistics-git-main-certifiedtboy.vercel.app/"
               className="btn btn-primary"
               type="button"
               target="_blank"
