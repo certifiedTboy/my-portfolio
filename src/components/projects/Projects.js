@@ -19,14 +19,15 @@ import TeeFlixModal from "../layouts/modals/TeeFlixModal";
 const Projects = () => {
   return (
     <Fragment>
+      <TeeFlixModal />
+      <DuroTradeModal />
+      <ChatAiModal />
+      <EstateAgencyModal />
       <ChatConnectModal />
       <ExamSolutionModal />
-      <EstateAgencyModal />
       <FasttrackModal />
       <InfoModal />
-      <ChatAiModal />
-      <DuroTradeModal />
-      <TeeFlixModal />
+
       <div className="portfolio" id="portfolio">
         <div className="container">
           <AnimationOnScroll
@@ -48,130 +49,6 @@ const Projects = () => {
             </div>
           </div>
           <div className="row portfolio-container">
-            <div
-              className="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-3 wow fadeInUp"
-              data-wow-delay="0.4s"
-            >
-              <AnimationOnScroll animateIn="animate__fadeInUp">
-                <div className="portfolio-wrap">
-                  <div className="portfolio-img">
-                    <img src={Chat} alt="Image" />
-                  </div>
-                  <div className="portfolio-text">
-                    <h3>
-                      <a
-                        href=""
-                        data-bs-toggle="modal"
-                        data-bs-target="#staticBackdrop2"
-                      >
-                        Chat Connect
-                      </a>{" "}
-                    </h3>
-                    <a className="btn">+</a>
-                  </div>
-                </div>
-              </AnimationOnScroll>
-            </div>
-            <div
-              className="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-1 wow fadeInUp"
-              data-wow-delay="0.0s"
-              style={{ marginBottom: "40px" }}
-            >
-              <AnimationOnScroll animateIn="animate__fadeInUp">
-                <div className="portfolio-wrap">
-                  <div className="portfolio-img">
-                    <img src={Estate} alt="Image" />
-                  </div>
-                  <div className="portfolio-text">
-                    <h3>
-                      <a
-                        href=""
-                        data-bs-toggle="modal"
-                        data-bs-target="#staticBackdrop1"
-                      >
-                        Estate-Agency
-                      </a>
-                    </h3>
-                    <a className="btn">+</a>
-                  </div>
-                </div>
-              </AnimationOnScroll>
-            </div>
-            <div
-              className="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-2 wow fadeInUp"
-              data-wow-delay="0.2s"
-            >
-              <AnimationOnScroll animateIn="animate__fadeInUp">
-                <div className="portfolio-wrap">
-                  <div className="portfolio-img">
-                    <img src={Exam} alt="Image" />
-                  </div>
-                  <div className="portfolio-text">
-                    <h3>
-                      <a
-                        href=""
-                        data-bs-toggle="modal"
-                        data-bs-target="#staticBackdrop"
-                      >
-                        Exams Solution
-                      </a>{" "}
-                    </h3>
-                    <a className="btn">+</a>
-                  </div>
-                </div>
-              </AnimationOnScroll>
-            </div>
-
-            <div
-              className="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-2 wow fadeInUp"
-              data-wow-delay="0.8s"
-            >
-              <AnimationOnScroll animateIn="animate__fadeInUp">
-                <div className="portfolio-wrap">
-                  <div className="portfolio-img">
-                    <img src={Fast} alt="Image" />
-                  </div>
-                  <div className="portfolio-text">
-                    <h3>
-                      <a
-                        href=""
-                        data-bs-toggle="modal"
-                        data-bs-target="#staticBackdrop3"
-                      >
-                        WebDev Blog
-                      </a>
-                    </h3>
-                    <a className="btn">+</a>
-                  </div>
-                </div>
-              </AnimationOnScroll>
-            </div>
-
-            <div
-              className="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-2 wow fadeInUp"
-              data-wow-delay="0.8s"
-            >
-              <AnimationOnScroll animateIn="animate__fadeInUp">
-                <div className="portfolio-wrap">
-                  <div className="portfolio-img">
-                    <img src={Chat_Ai} alt="Image" />
-                  </div>
-                  <div className="portfolio-text">
-                    <h3>
-                      <a
-                        href=""
-                        data-bs-toggle="modal"
-                        data-bs-target="#staticBackdrop5"
-                      >
-                        Chat AI
-                      </a>
-                    </h3>
-                    <a className="btn">+</a>
-                  </div>
-                </div>
-              </AnimationOnScroll>
-            </div>
-
             <div
               className="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-2 wow fadeInUp"
               data-wow-delay="0.8s"
@@ -215,6 +92,132 @@ const Projects = () => {
                       >
                         Tee Flix
                       </a>
+                    </h3>
+                    <a className="btn">+</a>
+                  </div>
+                </div>
+              </AnimationOnScroll>
+            </div>
+
+            <div
+              className="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-2 wow fadeInUp"
+              data-wow-delay="0.8s"
+            >
+              <AnimationOnScroll animateIn="animate__fadeInUp">
+                <div className="portfolio-wrap">
+                  <div className="portfolio-img">
+                    <img src={Chat_Ai} alt="Image" />
+                  </div>
+                  <div className="portfolio-text">
+                    <h3>
+                      <a
+                        href=""
+                        data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop5"
+                      >
+                        Chat AI
+                      </a>
+                    </h3>
+                    <a className="btn">+</a>
+                  </div>
+                </div>
+              </AnimationOnScroll>
+            </div>
+
+            <div
+              className="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-2 wow fadeInUp"
+              data-wow-delay="0.8s"
+            >
+              <AnimationOnScroll animateIn="animate__fadeInUp">
+                <div className="portfolio-wrap">
+                  <div className="portfolio-img">
+                    <img src={Fast} alt="Image" />
+                  </div>
+                  <div className="portfolio-text">
+                    <h3>
+                      <a
+                        href=""
+                        data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop3"
+                      >
+                        WebDev Blog
+                      </a>
+                    </h3>
+                    <a className="btn">+</a>
+                  </div>
+                </div>
+              </AnimationOnScroll>
+            </div>
+
+            <div
+              className="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-1 wow fadeInUp"
+              data-wow-delay="0.0s"
+              style={{ marginBottom: "40px" }}
+            >
+              <AnimationOnScroll animateIn="animate__fadeInUp">
+                <div className="portfolio-wrap">
+                  <div className="portfolio-img">
+                    <img src={Estate} alt="Image" />
+                  </div>
+                  <div className="portfolio-text">
+                    <h3>
+                      <a
+                        href=""
+                        data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop1"
+                      >
+                        Estate-Agency
+                      </a>
+                    </h3>
+                    <a className="btn">+</a>
+                  </div>
+                </div>
+              </AnimationOnScroll>
+            </div>
+
+            <div
+              className="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-3 wow fadeInUp"
+              data-wow-delay="0.4s"
+            >
+              <AnimationOnScroll animateIn="animate__fadeInUp">
+                <div className="portfolio-wrap">
+                  <div className="portfolio-img">
+                    <img src={Chat} alt="Image" />
+                  </div>
+                  <div className="portfolio-text">
+                    <h3>
+                      <a
+                        href=""
+                        data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop2"
+                      >
+                        Chat Connect
+                      </a>{" "}
+                    </h3>
+                    <a className="btn">+</a>
+                  </div>
+                </div>
+              </AnimationOnScroll>
+            </div>
+
+            <div
+              className="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-2 wow fadeInUp"
+              data-wow-delay="0.2s"
+            >
+              <AnimationOnScroll animateIn="animate__fadeInUp">
+                <div className="portfolio-wrap">
+                  <div className="portfolio-img">
+                    <img src={Exam} alt="Image" />
+                  </div>
+                  <div className="portfolio-text">
+                    <h3>
+                      <a
+                        href=""
+                        data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop"
+                      >
+                        Exams Solution
+                      </a>{" "}
                     </h3>
                     <a className="btn">+</a>
                   </div>
