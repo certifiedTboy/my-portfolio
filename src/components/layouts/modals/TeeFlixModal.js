@@ -42,9 +42,7 @@ const TeeFlixModal = () => {
             </p>
 
             <p>
-              Although not perfect for now, I am still working hard to improve
-              on the overall user experience and integrating more useful
-              functionalities
+              Tee-flix is also available on mobile as an android application.
             </p>
 
             <p>Enjoy teeflix with me...</p>

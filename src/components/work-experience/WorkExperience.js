@@ -8,7 +8,8 @@ const WorkExperience = () => {
         <AnimationOnScroll animateIn="animate__fadeInDown">
           <header
             className="section-header text-center wow zoomIn"
-            data-wow-delay="0.1s">
+            data-wow-delay="0.1s"
+          >
             <p>My Resume</p>
             <h2>Work Experience</h2>
           </header>
@@ -18,7 +19,8 @@ const WorkExperience = () => {
           <AnimationOnScroll animateIn="animate__fadeInLeft">
             <div
               className="timeline-item left wow slideInLeft"
-              data-wow-delay="0.1s">
+              data-wow-delay="0.1s"
+            >
               <div className="timeline-text">
                 <div className="timeline-date">2020</div>
                 <h2>Web Developer</h2>
@@ -34,7 +36,8 @@ const WorkExperience = () => {
           <AnimationOnScroll animateIn="animate__fadeInRight">
             <div
               className="timeline-item right wow slideInRight"
-              data-wow-delay="0.1s">
+              data-wow-delay="0.1s"
+            >
               <div className="timeline-text">
                 <div className="timeline-date">2021 - 2022</div>
                 <h2>Software Engineer (Node Js Backend)</h2>
@@ -51,7 +54,8 @@ const WorkExperience = () => {
           <AnimationOnScroll animateIn="animate__fadeInLeft">
             <div
               className="timeline-item left wow slideInRight"
-              data-wow-delay="0.1s">
+              data-wow-delay="0.1s"
+            >
               <div className="timeline-text">
                 <div className="timeline-date">2023</div>
                 <h2>Tech Instructor (Fullstack JS / Web Development)</h2>
