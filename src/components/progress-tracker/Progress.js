@@ -73,8 +73,9 @@ const Progress = () => {
                 </div>
                 <div>
                   <p>
-                    A certified and professional Node Js Web Developer and a
-                    creative graphics designer and digital marketer
+                    A certified and professional Software Engineer with years of
+                    experience in developing scalable web applications and a
+                    passion for learning new technologies.
                   </p>
                 </div>
                 <div className="skills">

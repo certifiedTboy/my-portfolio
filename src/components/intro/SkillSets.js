@@ -7,11 +7,10 @@ const SkillSets = () => {
 
   useEffect(() => {
     const skillSets = [
-      "Graphics Designer",
       "Web Developer",
       "Software Engineer",
-      "Digital Marketer",
       "Tech Instructor",
+      "AI Enthusiast",
     ];
 
     const options = {

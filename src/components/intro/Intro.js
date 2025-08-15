@@ -16,8 +16,7 @@ const Intro = () => {
                   <SkillSets />
                 </h2>
                 <div className="typed-text">
-                  Web Developer, Software Developer, Digital Marketer, Graphics
-                  Designer
+                  Web Developer, Software Engineer, and Tech Enthusiast
                 </div>
               </div>
               <div className="hero-btn">
