@@ -149,7 +149,7 @@ const Projects = () => {
               </AnimationOnScroll>
             </div>
 
-            <div
+            {/* <div
               className="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-1 wow fadeInUp"
               data-wow-delay="0.0s"
               style={{ marginBottom: "40px" }}
@@ -223,7 +223,7 @@ const Projects = () => {
                   </div>
                 </div>
               </AnimationOnScroll>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
