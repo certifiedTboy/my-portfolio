@@ -57,7 +57,7 @@ const TeeFlixModal = () => {
               Close
             </button>
             <a
-              href="https://tee-flix.vercel.app"
+              href="https://tech-flix-beryl.vercel.app"
               className="btn btn-primary"
               type="button"
               target="_blank"
