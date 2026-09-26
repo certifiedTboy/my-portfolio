@@ -1,130 +1,47 @@
-import React from "react";
-import { Link, animateScroll as scroll } from "react-scroll";
-import classes from "./MainNav.module.css";
-const MainNavigation = ({ scrollTop }) => {
+import React, { useState } from "react";
+
+const navigationItems = [
+  ["About", "about"],
+  ["Services", "services"],
+  ["Experience", "experience"],
+  ["Projects", "projects"],
+];
+
+const MainNavigation = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const closeMenu = () => setMenuOpen(false);
+
   return (
-    <div
-      className={`navbar navbar-expand-lg bg-light navbar-light  ${
-        scrollTop > 0 ? `nav-sticky` : ""
-      }`}
-    >
-      <div className="container-fluid">
-        <a href="/" className="navbar-brand bra">
-          My Portfolio
+    <header className="site-header">
+      <nav className="site-nav" aria-label="Main navigation">
+        <a className="brand" href="#home" onClick={closeMenu} aria-label="Adebisi Tosin home">
+          <span className="brand-mark">AT</span>
+          <span className="brand-name">adebisi<span>.</span></span>
         </a>
         <button
+          className={`menu-toggle${menuOpen ? " is-open" : ""}`}
           type="button"
-          className="navbar-toggler"
-          data-toggle="collapse"
-          data-target="#navbarCollapse"
+          aria-label={menuOpen ? "Close navigation menu" : "Open navigation menu"}
+          aria-expanded={menuOpen}
+          aria-controls="primary-menu"
+          onClick={() => setMenuOpen((isOpen) => !isOpen)}
         >
-          <span className="navbar-toggler-icon"></span>
+          <span />
+          <span />
         </button>
-
-        <div
-          className="collapse navbar-collapse justify-content-between"
-          id="navbarCollapse"
-        >
-          <div className="navbar-nav ml-auto">
-            <Link
-              activeClass="active"
-              className={`nav-item nav-link ${classes.mousePoint} active`}
-              to="home"
-              spy={true}
-              smooth={true}
-              hashSpy={true}
-              duration={500}
-              delay={500}
-              isDynamic={true}
-              ignoreCancelEvents={false}
-              spyThrottle={500}
-            >
-              Home
-            </Link>
-
-            <Link
-              activeClass="active"
-              className={`nav-item nav-link ${classes.mousePoint}`}
-              to="about"
-              spy={true}
-              smooth={true}
-              hashSpy={true}
-              duration={500}
-              delay={500}
-              isDynamic={true}
-              ignoreCancelEvents={false}
-              spyThrottle={500}
-            >
-              About
-            </Link>
-
-            <Link
-              activeClass="active"
-              className={`nav-item nav-link ${classes.mousePoint}`}
-              to="service"
-              spy={true}
-              smooth={true}
-              hashSpy={true}
-              duration={500}
-              delay={500}
-              isDynamic={true}
-              ignoreCancelEvents={false}
-              spyThrottle={500}
-            >
-              Service
-            </Link>
-
-            <Link
-              activeClass="active"
-              className={`nav-item nav-link ${classes.mousePoint}`}
-              to="experience"
-              spy={true}
-              smooth={true}
-              hashSpy={true}
-              duration={500}
-              delay={500}
-              isDynamic={true}
-              ignoreCancelEvents={false}
-              spyThrottle={500}
-            >
-              Experience & Trainings
-            </Link>
-
-            <Link
-              activeClass="active"
-              className={`nav-item nav-link ${classes.mousePoint}`}
-              to="portfolio"
-              spy={true}
-              smooth={true}
-              hashSpy={true}
-              duration={500}
-              delay={500}
-              isDynamic={true}
-              ignoreCancelEvents={false}
-              spyThrottle={500}
-            >
-              Portfolio
-            </Link>
-
-            <Link
-              activeClass="active"
-              className={`nav-item nav-link ${classes.mousePoint}`}
-              to="contact"
-              spy={true}
-              smooth={true}
-              hashSpy={true}
-              duration={500}
-              delay={500}
-              isDynamic={true}
-              ignoreCancelEvents={false}
-              spyThrottle={500}
-            >
-              Contact
-            </Link>
-          </div>
+        <div className={`nav-links${menuOpen ? " is-open" : ""}`} id="primary-menu">
+          {navigationItems.map(([label, target]) => (
+            <a href={`#${target}`} key={target} onClick={closeMenu}>
+              {label}
+            </a>
+          ))}
+          <a className="nav-contact" href="#contact" onClick={closeMenu}>
+            Let&apos;s talk <span aria-hidden="true">↗</span>
+          </a>
         </div>
-      </div>
-    </div>
+      </nav>
+    </header>
   );
 };
 

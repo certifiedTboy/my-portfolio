@@ -1,78 +1,64 @@
 import React from "react";
-import { AnimationOnScroll } from "react-animation-on-scroll";
 
-const WorkExperience = () => {
-  return (
-    <div className="experience" id="experience">
-      <div className="container">
-        <AnimationOnScroll animateIn="animate__fadeInDown">
-          <header
-            className="section-header text-center wow zoomIn"
-            data-wow-delay="0.1s"
+const roles = [
+  {
+    period: "2023",
+    role: "Tech Instructor",
+    focus: "Full-stack JavaScript · Web development",
+    company: "GoMyCode Nigeria",
+    details:
+      "Supporting students through their learning journey and leading hands-on, real-world project sessions.",
+  },
+  {
+    period: "2021 — 2022",
+    role: "Software Engineer",
+    focus: "Node.js · TypeScript · Backend",
+    company: "The House of Sounds Entertainment",
+    details:
+      "Built application features in a microservices environment using TypeScript, Node.js, PostgreSQL, and MongoDB.",
+  },
+  {
+    period: "2020",
+    role: "Web Developer",
+    focus: "Web applications",
+    company: "UR-Fasttrack Admissions",
+    details:
+      "Developed and managed a website that lets prospective students register online for JUPEB programmes.",
+  },
+];
+
+const WorkExperience = () => (
+  <section className="experience-section section-padding" id="experience">
+    <div className="page-shell experience-layout">
+      <div className="experience-aside" data-scroll-reveal="left">
+        <p className="eyebrow">The journey so far</p>
+        <h2>Learning by <span>building.</span></h2>
+        <p className="body-copy">
+          Each role has added a new perspective—from delivering for clients to
+          helping the next generation of developers get started.
+        </p>
+        <a className="text-link" href="#contact">Work with me <span aria-hidden="true">↗</span></a>
+      </div>
+      <div className="experience-list">
+        {roles.map((item, index) => (
+          <article
+            className="experience-item"
+            data-scroll-reveal="right"
+            key={item.company}
+            style={{ "--reveal-delay": `${(index + 1) * 80}ms` }}
           >
-            <p>My Resume</p>
-            <h2>Work Experience</h2>
-          </header>
-        </AnimationOnScroll>
-
-        <div className="timeline">
-          <AnimationOnScroll animateIn="animate__fadeInLeft">
-            <div
-              className="timeline-item left wow slideInLeft"
-              data-wow-delay="0.1s"
-            >
-              <div className="timeline-text">
-                <div className="timeline-date">2020</div>
-                <h2>Web Developer</h2>
-                <h4>UR-Fasttrack Admissions</h4>
-                <p>
-                  Developed and managed their website, which is aimed at
-                  allowing prospective students register for their JUPEB
-                  programmes online
-                </p>
-              </div>
+            <div className="experience-period">{item.period}</div>
+            <div className="experience-details">
+              <h3>{item.role}</h3>
+              <p className="experience-focus">{item.focus}</p>
+              <p className="experience-company">{item.company}</p>
+              <p className="body-copy">{item.details}</p>
             </div>
-          </AnimationOnScroll>
-          <AnimationOnScroll animateIn="animate__fadeInRight">
-            <div
-              className="timeline-item right wow slideInRight"
-              data-wow-delay="0.1s"
-            >
-              <div className="timeline-text">
-                <div className="timeline-date">2021 - 2022</div>
-                <h2>Software Engineer (Node Js Backend)</h2>
-                <h4>The House of Sounds Entertainment</h4>
-                <p>
-                  Worked on different functionalities of their application built
-                  on micro-services architecture with typescript nodejs,
-                  postgresql and mongodb databases
-                </p>
-              </div>
-            </div>
-          </AnimationOnScroll>
-
-          <AnimationOnScroll animateIn="animate__fadeInLeft">
-            <div
-              className="timeline-item left wow slideInRight"
-              data-wow-delay="0.1s"
-            >
-              <div className="timeline-text">
-                <div className="timeline-date">2023</div>
-                <h2>Tech Instructor (Fullstack JS / Web Development)</h2>
-                <h4>GoMyCode Nigeria</h4>
-                <p>
-                  Provide support for students on their course of study and
-                  guide through their learning process. Provide a code along
-                  classes on real life projects to help students gain hands on
-                  experiences
-                </p>
-              </div>
-            </div>
-          </AnimationOnScroll>
-        </div>
+          </article>
+        ))}
       </div>
     </div>
-  );
-};
+  </section>
+);
 
 export default WorkExperience;
