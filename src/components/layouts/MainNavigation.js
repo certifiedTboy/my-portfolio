@@ -15,14 +15,23 @@ const MainNavigation = () => {
   return (
     <header className="site-header">
       <nav className="site-nav" aria-label="Main navigation">
-        <a className="brand" href="#home" onClick={closeMenu} aria-label="Adebisi Tosin home">
-          <span className="brand-mark">AT</span>
-          <span className="brand-name">adebisi<span>.</span></span>
+        <a
+          className="brand"
+          href="#home"
+          onClick={closeMenu}
+          aria-label="Adebisi Tosin home"
+        >
+          <span className="brand-mark">ET</span>
+          <span className="brand-name">
+            WebDev Portfolio<span>.</span>
+          </span>
         </a>
         <button
           className={`menu-toggle${menuOpen ? " is-open" : ""}`}
           type="button"
-          aria-label={menuOpen ? "Close navigation menu" : "Open navigation menu"}
+          aria-label={
+            menuOpen ? "Close navigation menu" : "Open navigation menu"
+          }
           aria-expanded={menuOpen}
           aria-controls="primary-menu"
           onClick={() => setMenuOpen((isOpen) => !isOpen)}
@@ -30,7 +39,10 @@ const MainNavigation = () => {
           <span />
           <span />
         </button>
-        <div className={`nav-links${menuOpen ? " is-open" : ""}`} id="primary-menu">
+        <div
+          className={`nav-links${menuOpen ? " is-open" : ""}`}
+          id="primary-menu"
+        >
           {navigationItems.map(([label, target]) => (
             <a href={`#${target}`} key={target} onClick={closeMenu}>
               {label}
