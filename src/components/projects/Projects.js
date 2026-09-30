@@ -2,9 +2,6 @@ import Durotrade from "../../Assets/durotrade.png";
 import Teeflix from "../../Assets/teeflix.png";
 import ChatAi from "../../Assets/chat-ai.png";
 import Fasttrack from "../../Assets/fast.png";
-import Estate from "../../Assets/estate.png";
-// import Chat from "../../Assets/chat.png";
-import Exam from "../../Assets/exam.png";
 
 const projects = [
   {
